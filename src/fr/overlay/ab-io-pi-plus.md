@@ -5,7 +5,7 @@ class: board
 type: io
 formfactor: HAT
 manufacturer: AB Electronics
-description: 32 Channel Digital Expansion Board
+description: Carte d'expansion 32 Canaux Digitaux
 url: https://www.abelectronics.co.uk/p/54/IO-Pi-Plus
 github: https://github.com/abelectronicsuk
 buy: https://www.abelectronics.co.uk/p/54/IO-Pi-Plus
@@ -39,13 +39,13 @@ i2c:
 -->
 #IO Pi Plus
 
-The IO Pi Plus is a 32 channel digital expansion board designed for use on the Raspberry Pi. The board is based around the MCP23017 16-bit I/O expander from Microchip Technology Inc. 
+Le **IO Pi Plus** de **AB Electronics** est une carte chapeau d'extension à 32 canaux digitaux conçu pour fonctionner avec le Raspberry Pi. Le **IO Pi Plus** est basé sur une micro-puce **MCP23017 16-bit I/O expander** de **Microchip Technologies Inc**.
 
-A pair of MCP23017 expanders are included on the board allowing you to connect up to 32 digital inputs or outputs to the Raspberry Pi.  The IO Pi Plus Expander is powered through the host Raspberry Pi using the GPIO port and extended pins on the GPIO connector allow you to stack the IO Pi Plus along with other expansion boards.
+Deux micro-puces **MCP23017** sont présente sur la carte chapeau permettant de rajouter jusqu'à 32 entrée ou sorties digitales au Raspberry Pi. Le **IO Pi Plus** est alimenté par le Raspberry Pi au travers du port GPIO et permet de connecter d'autres carte chapeau.
 
-##Features
+##Caractéristiques
 
--  32 Digital Inputs/Outputs
+-  32 Entrées/sorties Digitales
 -  Control via the Raspberry Pi I2C port
 -  Stack up to 4 IO Pi boards on a single Raspberry Pi
 -  Jumper selectable I2C addresses
